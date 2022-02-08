@@ -1379,7 +1379,8 @@
 		pickupdialoguefailure = "No."
 
 
-
+/obj/npc/trader/greasemonkey
+	icon = 'icons/obj/trader.dmi'
 /*
 
 /obj/npc/trader/flexx

@@ -279,3 +279,14 @@
 		slots["4"] = new /obj/item/ammo/bullets/bullet_22(src)
 		rebuildOverlays()
 		return ..()
+
+/obj/cabinet/bar //for the scrapper fortuna prefab
+	New()
+		slots["1"] = new /obj/item/shaker/salt
+		slots["2"] = new /obj/item/reagent_containers/food/drinks/curacao
+		slots["3"] = new /obj/item/reagent_containers/food/drinks/bottle/soda/gingerale
+		slots["4"] = new /obj/item/reagent_containers/food/snacks/plant/coconutmeat/
+		slots["5"] = new /obj/item/reagent_containers/food/drinks/cocktailshaker
+		slots["6"] = new /obj/item/reagent_containers/food/drinks/bottle/thegoodstuff
+		rebuildOverlays()
+		return ..()
