@@ -1381,6 +1381,56 @@
 
 /obj/npc/trader/greasemonkey
 	icon = 'icons/obj/trader.dmi'
+
+/obj/npc/trader/sssteve
+	icon = 'icons/obj/large/32x48.dmi'
+	icon_state = "steve"
+	picture = "shambles.png"
+	name = "Sssteven"
+	trader_area = /area/
+	angrynope = "You better stop..."
+	whotext = "We are one..."
+
+	New()
+		..()
+		/////////////////////////////////////////////////////////
+		//// sell list //////////////////////////////////////////
+		/////////////////////////////////////////////////////////
+		src.goods_sell += new /datum/commodity/the_sting(src)
+		src.goods_sell += new /datum/commodity/oxygen_tank(src)
+		src.goods_sell += new /datum/commodity/ling_blood(src)
+		/////////////////////////////////////////////////////////
+		//// buy list ///////////////////////////////////////////
+		/////////////////////////////////////////////////////////
+
+		/////////////////////////////////////////////////////////
+
+		greeting= {"Hello..."}
+
+		portrait_setup = "<img src='[resource("images/traders/[src.picture]")]'><HR><B>[src.name]</B><HR>"
+
+		sell_dialogue = "Hungry..."
+
+		buy_dialogue = "We have many things..."
+
+		successful_purchase_dialogue = list("Thank you...",
+			"Don't mind the smell...",
+			"You're kinder than most...")
+
+		failed_purchase_dialogue = list("Is this a joke..?",
+			"We would like more...")
+
+		successful_sale_dialogue = list("Good...",
+			"We are thankful...",
+			"This offer pleases us...")
+
+		failed_sale_dialogue = list("We don't want that...",
+			"We have no need for this...")
+
+		pickupdialogue = "Here you go..."
+
+		pickupdialoguefailure = "You haven't ordered anything..."
+
 /*
 
 /obj/npc/trader/flexx

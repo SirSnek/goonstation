@@ -2900,3 +2900,51 @@
 	price = 21000
 	upperfluc = 20000
 	lowerfluc = -28500
+
+/////////////steve the changeling///////////////////////
+/datum/commodity/the_sting
+	comname = "The Sting"
+	desc = "We make drugs from time to time..."
+	comtype = /obj/item/reagent_containers/pill/ling_mix
+	onmarket = 0
+	price = 1300
+	upperfluc = 750
+	lowerfluc = -400
+
+/datum/commodity/oxygen_tank
+	comname = "Spare air tank"
+	desc = "We're not sure why so many people have these things on them..."
+	comtype = /obj/item/tank/emergency_oxygen
+	onmarket = 0
+	price = 150
+	upperfluc = 200
+	lowerfluc = -50
+
+/datum/commodity/ling_blood
+	comname = "Excess blood"
+	desc = "We have too much blood on our hands, maybe you'll want it..."
+	comtype = /obj/item/reagent_containers/glass/flask/bloodc
+	onmarket = 0
+	price = 700
+	upperfluc = 300
+	lowerfluc = -150
+
+/datum/commodity/human_meat
+	comname = "Human meat"
+	desc = "We have tastes that could be seen as weird by some... not many sell our favourite ingredient to us so we find other ways..."
+	comtype = /obj/item/
+	onmarket = 0
+	price = 150
+	upperfluc = 300
+	lowerfluc = -40
+
+/datum/commodity/tandoorichicken
+	comname = "Tandoori chicken"
+	desc = "It reminds us of home..."
+	comtype = /obj/item/reagent_containers/food/snacks/tandoorichicken
+	onmarket = 0
+	price = 600
+	upperfluc = 500
+	lowerfluc = -300
+
+/datum/commodity/
