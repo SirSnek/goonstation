@@ -175,7 +175,7 @@
 
 /obj/item/reagent_containers/pill/salicylic_acid
 	name = "analgesic pill"
-	desc = "A painkiller used to treat minor injuries." 
+	desc = "A painkiller used to treat minor injuries."
 	icon_state = "pill4"
 
 	New()
@@ -361,3 +361,14 @@
 	New()
 		..()
 		reagents.add_reagent("ipecac", 5)
+
+/obj/item/reagent_containers/pill/ling_mix //not very pleasant
+	name = "The Sting"
+	desc = "It smells and most likely tastes like wet dog food mixed with vodka and laundry detergent."
+	icon_state = "pill12"
+
+	New()
+		..()
+		reagents.add_reagent("neurotoxin", 12)
+		reagents.add_reagent("LSD", 7)
+		reagents.add_reagent("lingtea", 16)
