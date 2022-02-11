@@ -1313,6 +1313,23 @@ ABSTRACT_TYPE(/area/prefab)
 /area/prefab/secbot_academy
 	name = "Securitron Academy"
 	icon_state = "red"
+
+/area/prefab/fortuna_scrapper
+	name = "PLACEHOLDER NAME"
+	icon_state = "blue"
+	requires_power = TRUE
+
+	disposals
+		name = "PLACEHOLDER"
+		icon_state = "orange"
+
+	kitchen
+		name = "PLACEHOLDER"
+		icon_state = "red"
+
+	podbay
+		name = "PLACEHOLDER"
+		icon_state = "purple"
 // Sealab trench areas //
 
 /area/shuttle/sea_elevator_room
