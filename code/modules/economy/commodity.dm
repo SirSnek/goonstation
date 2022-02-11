@@ -2930,7 +2930,7 @@
 	lowerfluc = -50
 
 /datum/commodity/ling_blood
-	comname = "Excess blood"
+	comname = "Flask of excess blood"
 	desc = "We have too much blood on our hands, maybe you'll want it..."
 	comtype = /obj/item/reagent_containers/glass/flask/bloodc
 	onmarket = 0
@@ -2938,10 +2938,29 @@
 	upperfluc = 300
 	lowerfluc = -150
 
+/datum/commodity/smile_sticker
+	comname = "Happy stickers"
+	desc = "We found these here and we are happy enough as is..."
+	comtype = /obj/item/sticker/smile
+	onmarket = 0
+	price = 200
+	upperfluc = 130
+	lowerfluc = -50
+
+/datum/commodity/bodyparts/appendix/changeling
+	comname = "Human Appendix"
+	comtype = /obj/item/organ/appendix
+	desc_buy = "These blobs of flesh are incredibly tasty, bring as many as you can..."
+	onmarket = 0
+	price = 600
+	upperfluc = 120
+	lowerfluc = -400
+
+
 /datum/commodity/human_meat
 	comname = "Human meat"
-	desc = "We have tastes that could be seen as weird by some... not many sell our favourite ingredient to us so we find other ways..."
-	comtype = /obj/item/
+	desc_buy = "We have tastes that could be seen as weird by some... not many sell our favourite ingredient to us so we find other ways..."
+	comtype = /obj/item/reagent_containers/food/snacks/ingredient/meat/humanmeat
 	onmarket = 0
 	price = 150
 	upperfluc = 300
@@ -2949,11 +2968,18 @@
 
 /datum/commodity/tandoorichicken
 	comname = "Tandoori chicken"
-	desc = "It reminds us of home..."
+	desc_buy = "It reminds us of home..."
 	comtype = /obj/item/reagent_containers/food/snacks/tandoorichicken
 	onmarket = 0
 	price = 600
 	upperfluc = 500
 	lowerfluc = -300
 
-/datum/commodity/
+/datum/commodity/dna_injector
+	comname = "DNA injectors"
+	desc_buy = "We are interested in genetic advancements... we don't mind if they're used or not..."
+	comtype = /obj/item/genetics_injector/dna_injector
+	onmarket = 0
+	price = 300
+	upperfluc = 200
+	lowerfluc = -150

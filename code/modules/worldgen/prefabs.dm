@@ -249,6 +249,11 @@ ABSTRACT_TYPE(/datum/generatorPrefab)
 		prefabPath = "assets/maps/prefabs/prefab_securitron_academy.dmm"
 		prefabSizeX = 34
 		prefabSizeY = 37
+
+	fortuna_scrapper
+		maxNum = 1
+		probability = 100
+		prefabPath = "assets/maps/prefabs/prefab_fortuna_scrapper.dmm"
 	//UNDERWATER AREAS FOR OSHAN
 
 	pit

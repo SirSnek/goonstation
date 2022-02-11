@@ -1390,7 +1390,7 @@
 	name = "Sssteven"
 	trader_area = /area/
 	angrynope = "You better stop..."
-	whotext = "We are one..."
+	whotext = "We are one... we just want peace..."
 
 	New()
 		..()
@@ -1400,10 +1400,14 @@
 		src.goods_sell += new /datum/commodity/the_sting(src)
 		src.goods_sell += new /datum/commodity/oxygen_tank(src)
 		src.goods_sell += new /datum/commodity/ling_blood(src)
+		src.goods_sell += new /datum/commodity/smile_sticker(src)
 		/////////////////////////////////////////////////////////
 		//// buy list ///////////////////////////////////////////
 		/////////////////////////////////////////////////////////
-
+		src.goods_buy += new /datum/commodity/human_meat(src)
+		src.goods_buy += new /datum/commodity/tandoorichicken(src)
+		src.goods_buy += new /datum/commodity/bodyparts/appendix/changeling(src)
+		src.goods_buy += new /datum/commodity/dna_injector(src)
 		/////////////////////////////////////////////////////////
 
 		greeting= {"Hello..."}
