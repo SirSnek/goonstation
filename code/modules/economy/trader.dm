@@ -1407,7 +1407,8 @@
 		src.goods_buy += new /datum/commodity/
 		/////////////////////////////////////////////////////////
 
-		greeting =
+		greeting = {}
+
 /obj/npc/trader/sssteve
 	icon = 'icons/obj/large/32x48.dmi'
 	icon_state = "steve"
