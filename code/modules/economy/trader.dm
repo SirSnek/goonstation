@@ -1382,7 +1382,32 @@
 
 /obj/npc/trader/greasemonkey
 	icon = 'icons/obj/trader.dmi'
+	icon_state = ""
+	picture = ""
+	name = "Grease"
+	trader_area = /area/
+	angrynope = "Could you not?"
+	whotext = "I'm the outpost engineer and mechanic, I operate this pod bay when nothing else is going on. If you're curious why I can talk without a translator it's becuase I had one surgically placed in my vocal cords at a young age."
 
+	New()
+		..()
+		/////////////////////////////////////////////////////////
+		//// sell list //////////////////////////////////////////
+		/////////////////////////////////////////////////////////
+		src.goods_sell += new /datum/commodity/ //scrapper pod armor/paintjob? decent def with lower than average speed but it heals more from welding tools?
+		src.goods_sell += new /datum/commodity/ //other paintjobs
+		src.goods_sell += new /datum/commodity/ //special engine?
+		src.goods_sell += new /datum/commodity/ //tools?
+		src.goods_sell += new /datum/commodity/ //fuel tanks
+		/////////////////////////////////////////////////////////
+		//// buy list ///////////////////////////////////////////
+		/////////////////////////////////////////////////////////
+		src.goods_buy += new /datum/commodity/
+		src.goods_buy += new /datum/commodity/
+		src.goods_buy += new /datum/commodity/
+		/////////////////////////////////////////////////////////
+
+		greeting =
 /obj/npc/trader/sssteve
 	icon = 'icons/obj/large/32x48.dmi'
 	icon_state = "steve"
@@ -1432,7 +1457,7 @@
 		failed_sale_dialogue = list("We don't want that...",
 			"We have no need for this...")
 
-		pickupdialogue = "Here you go..."
+		pickupdialogue = "Here you go... the crate will be in the cargo bay..."
 
 		pickupdialoguefailure = "You haven't ordered anything..."
 

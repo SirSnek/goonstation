@@ -362,7 +362,7 @@
 		..()
 		reagents.add_reagent("ipecac", 5)
 
-/obj/item/reagent_containers/pill/ling_mix //not very pleasant
+/obj/item/reagent_containers/pill/ling_mix //not very pleasant but it's not certain death.
 	name = "The Sting"
 	desc = "It smells and most likely tastes like wet dog food mixed with vodka and laundry detergent."
 	icon_state = "pill12"
